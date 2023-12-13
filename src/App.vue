@@ -1,16 +1,16 @@
 <script>
 import PageHeader from "./components/PageHeader.vue";
+import Carosello from "./components/Carosello.vue";
+import NextMatch  from "./components/NextMatch.vue";
 
 export default {
 	components: {
-    PageHeader
+    PageHeader,
+	Carosello,
+	NextMatch,
 },
 
-	data() {
-		return {
-			
-		}
-	},
+	
 	methods: {
 		
 	}
@@ -19,7 +19,9 @@ export default {
 
 <template>
   <PageHeader />
-	
+  <Carosello />
+  <NextMatch />
+
 
 </template>
 <style lang="scss">
