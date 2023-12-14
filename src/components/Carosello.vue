@@ -58,8 +58,8 @@ export default {
 </script>
 <style scoped>
 .swiper {
-    width: 70%;
-    height: 10%;
+    width: 80%;
+    height: 70vh;
 }
 
 .swiper-slide {
